@@ -15,7 +15,7 @@ class AppRoutes {
   static const String salesScreen = 'salesScreen';
 
   static Route<void> onGenerateRoute(RouteSettings settings) {
-    final args = settings.arguments;
+    // final args = settings.arguments;
     switch (settings.name) {
       case login:
         return BaseRoute(
